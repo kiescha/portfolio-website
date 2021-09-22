@@ -202,3 +202,9 @@ button:hover, button:focus {
 .breakline {
   opacity: 0.3;
 }
+td {
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+}

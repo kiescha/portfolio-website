@@ -5,6 +5,12 @@
 * Browsers: last 4 version
 */
 
+:root {
+  --primary-color: #357b70;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
+  --font-weight: 700px;
+}
 body {
     background-image: url("../img/greenbg.png");
     font-family: 'Josefin Sans', sans-serif;
@@ -14,20 +20,20 @@ body {
     }
 h1 {
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: var(--font-weight);
   }
 
 h2 {
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: var(--font-weight);
   }
 
 h3 {
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: var(--font-weight);
   }
 a {
-    color: #357b70;
+    color: var(--primary-color);
   }
 a:visited {
     /* visited link */
@@ -41,31 +47,14 @@ a:active {
     /* selected link */
     color: #489c79;
   }
-.button {
+.button, button {
     /* overwrites browser defaults and resets the border */
     border: none;
     display: inline-block;
     /* takes the font from the outer container */
     font-family: inherit;
     /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #357b70;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
-    -webkit-transition: 0.2s opacity;
-    -o-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-  }
-button {
-    /* overwrites browser defaults and resets the border */
-    border: none;
-    display: inline-block;
-    /* takes the font from the outer container */
-    font-family: inherit;
-    /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #357b70;
+    background-color: var(--primary-color);
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -284,4 +273,10 @@ button:hover, button:focus {
 }
 .breakline {
   opacity: 0.3;
+}
+td {
+  text-align: center;
+}
+table {
+  margin: 0 auto;
 }
