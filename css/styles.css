@@ -143,7 +143,7 @@ button:hover, button:focus {
     grid-gap: 10px;
   }
   .grid__item:last-child {
-    grid-column: auto /auto;
+    grid-column: auto / auto;
     grid-row: auto / auto;
   }
   h1 {
@@ -166,10 +166,10 @@ button:hover, button:focus {
 @keyframes color-change {
   0% {
     fill: #edc655;
-  }
+}
   50% {
     fill: #fcffad;
-  }
+}
   100% {
     fill: #f76414;
   }
@@ -214,7 +214,7 @@ table {
   justify-content: center;
 }
 .submit-button {
-  margin: 20px; 0;
+  margin: 20px 0;
 }
 form input, textarea {
 	padding: 5px;
