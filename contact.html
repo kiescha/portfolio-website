@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/Lite1.png">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 <body>
   <header class="page-header">
@@ -58,19 +58,21 @@
     <a href="mailto:kiestas@gmail.com">kiestas@gmail.com</a><br>
     <a href="mailto:kiestas@gmail.com">Contact me</a>
   </footer>
-  <form action="" method="post" id="contact-form">
-    <label class="standart-label" for="contact-email">E-mail: </label>
-    <input type="email" id="contact-email" required>
+  <div class="submit-forma">
+    <form action="" method="post" id="contact-form">
+      <label class="standart-label" for="contact-email">E-mail: </label>
+      <input type="email" id="contact-email" required>
 
-    <label class="standart-label" for="telephone">Telephone: </label>
-    <!--I will not put a pattern on tel number.pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
-    <input type="tel" id="telephone">
-
-    <label class="standart-label" for="Message">Message: </label>
-    <textarea id="Message" maxlength="260" required></textarea>
-
-    <input type="submit" value="Send message">
-  </form>
+      <label class="standart-label" for="telephone">Telephone: </label>
+      <!--I will not put a pattern on tel number.pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
+      <input type="tel" id="telephone">
+      <div class="submit-button">
+        <label class="standart-label" for="Message">Message: </label>
+        <textarea id="Message" maxlength="260" required></textarea>
+        <input type="submit" value="Send message">
+      </div>
+    </form>
+  </div>
 <script src="js/tota11y.min.js"></script>
 </body>
 </html>
