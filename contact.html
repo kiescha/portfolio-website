@@ -31,48 +31,37 @@
     </nav>
   </header>
 <hr class="breakline">
-  <footer class="page-footer">
-      <div class="profile">
-        <div class="">
-          <img src="img/foto.jpg" class="profile-portrait" alt="A photograph of Kestutis Varpiotas">
-        </div>
-      <div class="page-footer">
-        <h1>Click There!</h1>
-        <!--Later these icon will be links to designated external web pages-->
-        <img src="img/arrow.png" alt="arrow">
-      </div>
-      <!-- Github icona -->
-      <img src="img/git.svg" alt="Github">
-      <!--twiter icona-->
-      <img src="img/Twiter.svg" alt="Twitter">
-      <!--LinkedIn icona-->
-      <img src="img/Linkedin.svg" alt="LinkedIn">
-    </div>
-    CareerFoundry Student<br>
-    Theodor-Heuss-ring <br>
-    Hannover<br>
-    Deutschland<br>
-    <br>
-    <a href="tel:+49yyyyxxx"></a>Tel +49 xx xxxx xxxx<br>
-    <a href="skype:Kestutis Va">Skype: Kestutis Va</a><br>
-    <a href="mailto:kiestas@gmail.com">kiestas@gmail.com</a><br>
-    <a href="mailto:kiestas@gmail.com">Contact me</a>
-  </footer>
-  <div class="submit-forma">
-    <form action="a" method="post" id="contact-form">
-      <label class="standart-label" for="contact-email">E-mail: </label>
-      <input type="email" id="contact-email" required>
-
-      <label class="standart-label" for="telephone">Telephone: </label>
-      <!--I will not put a pattern on tel number.pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
-      <input type="tel" id="telephone">
-      <div class="submit-button">
-        <label class="standart-label" for="Message">Message: </label>
-        <textarea id="Message" maxlength="260" required></textarea><br>
-        <input type="submit" value="Send message">
-      </div>
-    </form>
+<div>
+  <div class="page-footer">
+    <h1>You are welcome to get in touch with me if you have any questions</h1>
+    <h3>Skype: Kestutis Va</h3><br>
+    <p>Or E-mail me</p>
   </div>
+</div>
+    <form action="a" method="post" id="contact-form">
+      <label class="standart-label" for="name">Name*</label>
+        <input type="text" id="name" class="standart-label__field" placeholder="Your Name" required>
+      <label class="standart-label" for="contact-email">E-mail* </label>
+        <input type="email" id="contact-email" class="standart-label__field" placeholder="E-mail" required>
+      <label class="standart-label" for="telephone" >Telephone: </label>
+        <!--I will not put a pattern on tel number.pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
+        <input type="tel" id="telephone" class="standart-label__field" placeholder="000-000-000">
+      <label class="standart-label" for="Message">Message: </label>
+        <textarea id="Message" maxlength="260" required class="standart-label__field"></textarea><br>
+        <input type="submit" value="Send message" class="button-secondary">
+    </form>
+    <footer class="page-footer">
+      <p>Places to find me</p>
+        <div class="social-media">
+          <a href="https://github.com/kiescha" target="_blank">
+            <img src="img/git.svg" alt="Github">
+          </a>
+          <img src="img/Twiter.svg" alt="Twitter">
+          <a href="http://www.linkedin.com/in/kestutis-varpiotas-068803220" target="_blank">
+            <img src="img/Linkedin.svg" alt="LinkedIn">
+          </a>
+        </div>
+      </footer>
 <script src="js/tota11y.min.js"></script>
 </body>
 </html>
