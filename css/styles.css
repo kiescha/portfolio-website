@@ -259,6 +259,7 @@ table {
   justify-content: center;
   margin: 20px 0;
 }
+
 form {
   background: lightgray;
   width: 350px;
@@ -267,9 +268,14 @@ form {
   padding: 30px;
   border-radius: 8px;
 }
+
 .standart-label__field {
   display: block;
   width: 100%;
-  margin: 5px 0px 20px;
+  margin: 5px 20px;
   padding: 5px;
+}
+.error-message {
+  color: red;
+  font-size: 0.8em;
 }
